@@ -1,0 +1,42 @@
+{
+  "name": "nft-frontend-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.7",
+    "@material-tailwind/react": "^1.4.2",
+    "@next/font": "13.1.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@thirdweb-dev/auth": "^3.0.7",
+    "@thirdweb-dev/chains": "^0.1.6",
+    "@thirdweb-dev/react": "^3.10.3",
+    "@thirdweb-dev/sdk": "^3.10.0",
+    "alchemy-sdk": "^2.4.2",
+    "axios": "^1.2.3",
+    "ethers": "^5.7.2",
+    "ipfs-core": "^0.16.1",
+    "ipfs-http-client": "^59.0.0",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.5",
+    "react-select": "^5.7.0",
+    "react-slick": "^0.29.0",
+    "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}

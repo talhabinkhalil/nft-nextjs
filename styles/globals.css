@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Urbanist', sans-serif !important;
+}
+
+.bg-hero {
+  background-image: url('/hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.collection-header {
+  background-image: url('/collection-header.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* Scrollbar hidden */
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.slick-arrow{
+  background-color: #3D3D3D !important;
+  border-radius: 50%;
+  
+}
+.slick-dots{
+bottom: -75px !important;
+}
+.slick-slider{
+  background-color: #fff !important;
+}
+.tablehead-0001{
+  text-align: left;
+}
+
+.outline{
+  outline: none;
+}
